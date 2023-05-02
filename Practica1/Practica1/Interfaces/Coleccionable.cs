@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Practica1.Interfaces
 {
-    internal interface Coleccionable
+    public interface Coleccionable
     {
         public abstract int cuantos();
-        public abstract int minimo();
-        public abstract int maximo();
+        public abstract Comparable minimo();
+        public abstract Comparable maximo();
         public abstract void agregar(Comparable comparable);
         public abstract bool contiene(Comparable comparable);
     }

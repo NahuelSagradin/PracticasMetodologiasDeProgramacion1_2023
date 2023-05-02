@@ -26,12 +26,12 @@ namespace Practica1
 
         public bool sosMayor(Comparable comparable)
         {
-            return this.valor < ((Numero)comparable).valor;
+            return this.valor > ((Numero)comparable).valor;
         }
 
         public bool sosMenor(Comparable comparable)
         {
-            return this.valor > ((Numero)comparable).valor;
+            return this.valor < ((Numero)comparable).valor;
         }
     }
     /* Nota: asumiremos que el elemento que recibe el mensaje y 
